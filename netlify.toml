@@ -11,6 +11,12 @@
   force = true
 
 [[redirects]]
+  from = "/assests/*"
+  to = "/assets/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/"
   status = 200
