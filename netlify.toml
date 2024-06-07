@@ -5,7 +5,19 @@
   force = true
 
 [[redirects]]
-  from = "/*"
+  from = "/vite.svg"
+  to = "/vite.svg"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/.*(\\.js|\\.css|\\.svg)$"
   to = "/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/"
   status = 200
   force = true
