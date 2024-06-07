@@ -3,3 +3,9 @@
   to = "https://api.freeapi.app/api/v1/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+  force = true
